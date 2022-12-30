@@ -1,0 +1,125 @@
+body{
+    background-image: url("./blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:5px groove yellowgreen;
+    margin:0px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.box{
+    background-color:black;
+    color:white;
+    border:5px solid red;
+    border-radius:20px;
+    font-style:italic;
+    font-weight: bold;
+    text-align: center;
+}
+.box1{
+    height:100px;
+    width:400px;
+    margin:10px;
+    padding-left:30px;
+    padding-top: 20px;
+    font-size:32px;
+}
+.box2{
+    height:20px;
+    width:350px;
+    border-radius:30px;
+    margin-left:-270px; 
+    margin-top:20px;
+    padding:20px;
+    font-size:25px;
+}
+.box3{
+    height:100px;
+    width:300px;
+    margin-top:10px;
+    margin-right: 10px;
+    padding:10px;
+    font-size:20px;
+    line-height: 35px;
+}
+.section1{
+    position:relative;
+    height: 700px;
+    margin-top:40px;
+    margin-bottom: 30px;
+
+}
+.form{
+    width:300px;
+    height:600px;
+    border:5px dashed red;
+    padding:20px;
+    background-color:bisque;
+    color:red;
+    font-weight: bold;
+    position:absolute;
+    right:300px;
+}
+#fname{
+    text-align: center;
+    width:170px;
+}
+#lname{
+    text-align: center;
+    width:170px; 
+}
+#age{
+    text-align: center;
+    width:170px;
+}
+#email{
+    text-align: center;
+    width:170px;
+}
+#dob{
+    text-align: center;
+    width:170px;
+}
+.circle{
+     width:300px;
+     height:280px;
+     border:5px solid darkslategrey;
+     border-radius: 50%;
+     background-color: darkcyan;
+     color:black;
+     text-decoration:underline;
+     text-align: center;
+     padding:50px 5px 0px;
+     margin:10px;
+     font-style: italic;
+     position: absolute;
+     top:250px;
+     left:200px;
+}
+.section2{
+    display:flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.menu{
+    width:400px;
+    height:50px;
+    padding-bottom:10px;
+    }
+.section3{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:space-around;
+}
+.C{
+    height:250px;
+    width:300px;
+    border:3px groove black;
+    border-radius: 20px;
+    background-color: aqua;
+    color:darkblue;
+    margin:50px;
+    text-align: center;
+}
